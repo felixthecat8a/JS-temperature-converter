@@ -3,30 +3,33 @@ body {
   margin: 0;
   font-family: sans-serif;
   background-color:#333;
-  color:azure;
+  color:honeydew;
   text-align: center;
 }
 a:link {
-  color:azure;
+  color:honeydew;
 }
 a:visited {
-  color:azure; 
+  color:honeydew; 
 }
 a:active {
-  color: lightsteelblue; 
+  color: mediumseagreen; 
 }
 a:hover {
-  color:lightseagreen;
+  color:mediumseagreen;
 }
-#header {
-  color:lightseagreen;
+#header h1 {
+  color:mediumseagreen;
 }
 #navigation {
   padding: 10px;
 }
 #main {
   height: 100%;
-  width: 100%;
+  width: 100%; 
+}
+#main h2 {
+  color: lightseagreen;
 }
 #main select {
   font-size: 1rem;
