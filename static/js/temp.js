@@ -1,10 +1,12 @@
-//Converts Celcius to Fahrenheit and Fahrenheit to Celcius using Event Listener
+/*Converts Celcius to Fahrenheit and Fahrenheit to Celcius using Event Listener*/
 
+//Connect to values from HTML file
 var celciusInput = document.getElementById("celciusInput")
 var fahrenheitDisplay = document.getElementById("fahrenheitDisplay")
 var fahrenheitInput = document.getElementById('fahrenheitInput')
 var celciusDisplay = document.getElementById("celciusDisplay")
 
+//Event Listener will adjust the output sentence as soon as a value is entered
 celciusInput.addEventListener("input", displayFunctionC)
 
 function displayFunctionC() {
@@ -27,6 +29,7 @@ function displayFunctionF() {
     }
 }
 
+//Mathematics for conversion functions
 function convertCtoF(x) {
     return parseFloat(x.value) * 1.8 + 32
 }
