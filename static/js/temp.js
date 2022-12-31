@@ -1,3 +1,5 @@
+//Converts Celcius to Fahrenheit and Fahrenheit to Celcius using Event Listener
+
 var celciusInput = document.getElementById("celciusInput")
 var fahrenheitDisplay = document.getElementById("fahrenheitDisplay")
 var fahrenheitInput = document.getElementById('fahrenheitInput')
