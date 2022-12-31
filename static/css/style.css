@@ -12,6 +12,14 @@ body {
 #main h2 {
   color: lightseagreen;
 }
-#main input {
-  font-size: 1rem;
+#main input[type=number] {
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+}
+#main input:focus {
+    outline: 3px solid seagreen;
 }
