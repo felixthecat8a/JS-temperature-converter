@@ -8,7 +8,6 @@ celciusInput.addEventListener("input", displayFunctionC)
 function displayFunctionC() {
     if (celciusInput.value) {
         var fahrenheitOutput = convertCtoF(celciusInput)
-        //console.log(fahrenheitOutput)
         fahrenheitDisplay.innerText = "The temperature is " + fahrenheitOutput.toFixed(2) + "\xB0 Fahrenheit."
     } else {
         fahrenheitDisplay.innerText = "The temperature in \xB0F will display here."
