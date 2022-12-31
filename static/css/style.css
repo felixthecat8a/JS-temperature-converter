@@ -6,33 +6,23 @@ body {
   color:honeydew;
   text-align: center;
 }
-a:link {
-  color:honeydew;
-}
-a:visited {
-  color:honeydew; 
-}
-a:active {
-  color: mediumseagreen; 
-}
-a:hover {
-  color:mediumseagreen;
-}
+
+a:link {color:honeydew;}
+a:visited {color:honeydew;}
+a:active {color: mediumseagreen;}
+a:hover {color:mediumseagreen;}
+
 #header h1 {
   color:mediumseagreen;
 }
-#navigation {
-  padding: 10px;
+
+#nav {
+  padding: 5px;
+  margin: 5px;
 }
-#main {
-  height: 100%;
-  width: 100%; 
-}
+
 #main h2 {
   color: lightseagreen;
-}
-#main select {
-  font-size: 1rem;
 }
 #main input {
   font-size: 1rem;
