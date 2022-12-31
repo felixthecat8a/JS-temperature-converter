@@ -5,11 +5,6 @@ body {
   text-align: center;
 }
 
-a:link {color:honeydew;}
-a:visited {color:honeydew;}
-a:active {color: mediumseagreen;}
-a:hover {color:mediumseagreen;}
-
 #header h1 {
   color:mediumseagreen;
 }
