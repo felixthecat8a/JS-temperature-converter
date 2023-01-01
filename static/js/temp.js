@@ -3,7 +3,7 @@
 //Connect to values from HTML file
 var celciusInput = document.getElementById("celciusInput")
 var fahrenheitDisplay = document.getElementById("fahrenheitDisplay")
-var fahrenheitInput = document.getElementById('fahrenheitInput')
+var fahrenheitInput = document.getElementById("fahrenheitInput")
 var celciusDisplay = document.getElementById("celciusDisplay")
 
 //Event Listener will adjust the output sentence as soon as a value is entered
@@ -38,5 +38,5 @@ function convertFtoC(y) {
     return (parseFloat(y.value) - 32) / 1.8
 }
 
-//Example for using "getElementById" and "innerHTML"
+//Example for using getElementById with "innerHTML" - use single quotes inside the string quotes
 document.getElementById("footer").innerHTML = "<h3>by <span style='color:seagreen'>Felix</span></h3>"; 
