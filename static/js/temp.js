@@ -1,8 +1,5 @@
 /*Converts Celcius to Fahrenheit and Fahrenheit to Celcius using Event Listener*/
 
-//Example for using "getElementById" and "innerHTML"
-document.getElementById("header").innerHTML = "<h1>JavaScript Temperature Conversion App</h1>"; 
-
 //Connect to values from HTML file
 var celciusInput = document.getElementById("celciusInput")
 var fahrenheitDisplay = document.getElementById("fahrenheitDisplay")
@@ -40,3 +37,6 @@ function convertCtoF(x) {
 function convertFtoC(y) {
     return (parseFloat(y.value) - 32) / 1.8
 }
+
+//Example for using "getElementById" and "innerHTML"
+document.getElementById("header").innerHTML = "<h3>by <span style="color:seagreen">Felix</span></h3>"; 
