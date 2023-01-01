@@ -39,4 +39,4 @@ function convertFtoC(y) {
 }
 
 //Example for using "getElementById" and "innerHTML"
-document.getElementById("footer").innerHTML = "<h3>by <span style="color:seagreen">Felix</span></h3>"; 
+document.getElementById("footer").innerHTML = "<h3>by <span style='color:seagreen'>Felix</span></h3>"; 
