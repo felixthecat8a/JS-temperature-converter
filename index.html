@@ -27,12 +27,12 @@
     <div id="header"><h1>JavaScript Temperature Conversion App</h1></div>
     <hr>
     <div id="main">
-        <h2><u>Celcius to Fahrenheit Converter</u></h2>
+        <h2><u>Celsius to Fahrenheit Converter</u></h2>
         <p>Enter temperature in &degC: </p>
         <input type="number" id="celciusInput">
         <h3 id="fahrenheitDisplay">The temperature in &degF will display here.</h3>
         <br>
-        <h2><u>Fahrenheit to Celcius Converter</u></h2>
+        <h2><u>Fahrenheit to Celsius Converter</u></h2>
         <p>Enter temperature in &degF: </p>
         <input type="number" id="fahrenheitInput">
         <h3 id="celciusDisplay">The temperature in &degC will display here.</h3>
@@ -40,16 +40,16 @@
     </div>
     <div id="footer"></div>
     <script>
-        var celciusInput = document.getElementById("celciusInput")
+        var celsiusInput = document.getElementById("celsiusInput")
         var fahrenheitDisplay = document.getElementById("fahrenheitDisplay")
         var fahrenheitInput = document.getElementById("fahrenheitInput")
-        var celciusDisplay = document.getElementById("celciusDisplay")
+        var celsiusDisplay = document.getElementById("celsiusDisplay")
 
-        celciusInput.addEventListener("input", displayFunctionC)
+        celsiusInput.addEventListener("input", displayFunctionC)
 
         function displayFunctionC() {
-            if (celciusInput.value) {
-                var fahrenheitOutput = convertCtoF(celciusInput)
+            if (celsiusInput.value) {
+                var fahrenheitOutput = convertCtoF(celsiusInput)
                 fahrenheitDisplay.innerText = "The temperature is " + fahrenheitOutput.toFixed(2) + "\xB0 Fahrenheit."
             } else {
                 fahrenheitDisplay.innerText = "The temperature in \xB0F will display here."
@@ -60,10 +60,10 @@
 
         function displayFunctionF() {
             if (fahrenheitInput.value) {
-                var celciusOutput = convertFtoC(fahrenheitInput)
-                celciusDisplay.innerText = "The temperature is " + celciusOutput.toFixed(2) + "\xB0 Celcius."
+                var celsiusOutput = convertFtoC(fahrenheitInput)
+                celsiusDisplay.innerText = "The temperature is " + celsiusOutput.toFixed(2) + "\xB0 Celcius."
             } else {
-                celciusDisplay.innerText = "The temperature in \xB0C will display here."
+                celsiusDisplay.innerText = "The temperature in \xB0C will display here."
             }
         }
 
